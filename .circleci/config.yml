@@ -39,7 +39,7 @@ jobs:
             command: cat ~/output.txt
       
       my_job:
-       docker:
+        docker:
          - image: circleci/node:13.8.0
        steps:
          - print_pipeline_id
